@@ -1,0 +1,421 @@
+/*--*****----------------
+      "Google Font" 
+  --------------------#####--*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+/*--*****----------------
+      "Common Style" 
+  --------------------#####--*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--*****----------------
+      "Header Section Style" 
+  --------------------#####--*/
+  .header-wrap{
+    background-color: rgba(255, 144, 14, 0.1);    
+  }
+
+  /* ***** "Nav Part"  ##### */
+  .nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 50px 0;
+    
+  }
+  .nav-title{
+    font-size: 25px;    
+  }
+  .nav-menu{
+
+  }
+  .nav-menu a{
+    text-decoration: none;
+    color:black;
+    padding: 0 20px;
+  }
+
+  /* ***** "Banner Part"  ##### */
+  .banner-wrap{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;  
+  }
+  .banner-detail{
+    width:700px;
+    margin:40px 0;
+  }
+  .banner-title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .banner-info{
+    color: #727272;
+    text-align: center;    
+  }
+  .primary-button{
+    height:50px;
+    background-color: #FF900E;
+    color:#fff;
+    border:none;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    transition: 1s ease;
+  }
+  .primary-button:hover{
+    height:50px;
+    background-color:#ffcc91;
+    color:black;
+  }
+  .banner-image{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+
+  }
+  .banner-image img{
+    width:65%
+  }
+
+
+/*--*****----------------
+      "Main Section Style" 
+  --------------------#####--*/
+  .main-wrap{
+
+  }
+
+  /* ***** "Media Section Part"  ##### */
+
+  .media-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+  }
+  .media-image{
+    width:1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+    margin-right: 40px;
+  }
+  .media-image img{
+    width:100%;
+  }
+
+  .media-info{
+
+  } 
+  .media-head{
+    font-size: 5vh;
+  }
+  .media-details{
+    line-height: 26px;
+    color:#727272;
+    margin: 25px 0;
+    text-align: justify;
+  }
+
+ /* ***** "Feature Section Part"  ##### */
+  .feature-container{
+    display: flex;
+    margin: 0 200px;
+    justify-content: space-between;
+ }
+ .feature-detail-container{
+
+ }
+ .feature-head, .fact-head, .sponsor-head{
+    font-size: 5vh;
+    margin-bottom: 24px;
+    color: #08c04b;
+ }
+ .feature-detail{
+    color:#727272;
+    font-size: 2vh;
+    margin-bottom: 30px;
+    line-height: 20px;
+ }
+ .feature-info{
+    padding: 20px;
+    box-shadow: rgba(89, 86, 86, 0.15) 1.95px 1.95px 2.6px;
+ }
+ .feature-info-head{
+    color:rgb(101, 93, 195);
+    margin-bottom: 10px;    
+ }
+ .feature-info-detail{
+    color:#727272;
+    font-size: 2vh;
+    line-height: 20px;
+ }
+ .feature-media{
+
+ }
+ .feature-media img{
+    width:400px;
+    height:100%;
+ }
+ .special-btn-wrap{
+    margin-top: -89px;
+    margin-left: 285px;
+    display: flex;
+    justify-content: center;  
+ }
+ .special-btn{
+    background-color: #FF900E;
+    color:#fff;
+    border:none;
+    padding: 20px 50px;
+    border-radius: 5px;    
+    transition:.5s ease;
+ }
+ .special-btn:hover{
+      background-color: #102949;
+      color:#fff; 
+}
+ .special-btn-effec{
+    font-size: 30px;
+    font-weight: 700;
+ }
+ 
+  /* ***** "Facts Section Part"  ##### */
+ .fact-container{
+    margin: 50px 200px;
+ }
+ .fact-detail-container{
+    margin-bottom: 70px;;
+ }
+
+ .fact-detail, .fact-catagory p, .sponsor-info{
+      color:#727272;
+      font-size: 2vh;
+      line-height: 20px;
+ }
+ .fact-catagory-container{
+      display: flex;
+      justify-content: space-evenly;
+ }
+ .fact-catagory{
+      width:150px;
+      height:150px;
+      border: 1px solid rgb(8, 219, 110);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition:1s ease;
+ }
+ .fact-catagory:hover{
+      transform:scale(1.2)
+ }
+ .fact-catagory img{
+      width:48px;
+      height:48px;
+ }
+ .fact-catagory h3{
+      font-size: 5vh;
+      color:#5f08d2
+ }
+
+ .sponsors-container{
+      margin: 50px 200px;
+ }
+ .sponsor-detail{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+ }
+ .sponsor-head{
+      margin-bottom: 24px; 
+  }
+ 
+ .sponsors{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;            
+ }
+ .compnay{
+      display: flex;
+      justify-content: center;
+ }
+ .compnay img{
+      width:50%  
+ }
+
+ /*--*****----------------
+      "Footer Section" 
+  --------------------#####--*/
+ .footer-container{
+    margin: 50px 200px;
+    background-color: rgb(13, 33, 64);
+ }
+  .copyright-info{
+
+ }
+ 
+ .copyright-info {
+    color:#fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2vh;  
+
+}
+ 
+
+
+
+  /*--*****----------------
+      "Media Query" 
+  --------------------#####--*/
+
+  @media only screen and (max-width:576px) {
+    .header-wrap{
+      background-color: rgba(167, 226, 255, 0.1);
+    }
+
+     /* ***** "Nav Part"  ##### */
+
+    .nav-wrap{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin: 0; 
+        background-color: rgb(22, 61, 61);              
+      }
+      .nav-title{
+        font-size: 4vh;
+        color:#fff;
+        margin-bottom: 10px;        
+      }
+      .nav-menu a{
+        color:rgb(255, 255, 255);        
+      }
+      .banner-detail{
+        width:100%;        
+      }
+      .banner-title{
+        font-size: 3vh;
+      }
+      .banner-image img{
+        width:100%;
+      }
+      .primary-button {
+        margin-bottom: 30px;
+      }
+
+ /* ***** "Media Section Part"  ##### */
+      .media-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+      }  
+      .media-image{
+        width:100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+        margin-right:0;
+      }
+      .media-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+      }
+      .media-details, .media-head{
+        text-align: center; 
+      } 
+
+  /* ***** "Feature Section Part"  ##### */
+
+      .feature-container{
+        flex-direction: column;
+        margin: 0 ;     
+       }
+       .feature-head{
+        background-color: #192e6e; 
+        margin: 25px 0;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        }       
+       .feature-media img{
+        width:100%;       
+        }
+        .feature-detail{
+          text-align: center;          
+       }
+       .feature-media {
+        margin-top: 15px;
+        }
+     
+  /* ***** "Special Button Part"  ##### */
+      .special-btn-wrap{
+        margin-top: 15px;
+        margin-left: 0;       
+      }   
+  
+   /* ***** "Fact Part"  ##### */
+      .fact-container{
+        margin: 20px 0;
+     }
+     .fact-detail-container{
+      display: flex;
+      align-items:center;
+      flex-direction: column;      
+    }
+    .fact-detail, .fact-catagory p, .sponsor-info{
+      text-align: center;
+    }
+    .fact-catagory-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      grid-row-gap: 10px;
+      justify-items: center;  
+    }
+
+     /* ***** "Sponsors Part"  ##### */
+    .sponsors-container{
+      margin: 20px 0;
+    }
+    .sponsors{
+      flex-direction: column;
+         
+    }
+     .compnay {
+      border: 1px solid green;
+      width:60%;
+      padding: 10px;
+      margin-bottom: 10px;
+ }
+
+    /* ***** "Footer Part"  ##### */
+    .footer-container{
+      margin: 50px 0;
+   }
+   .copyright-info{
+      display: flex;
+      align-items: center;     
+   }
+ 
+
+
+  }
+
+
+    
+
+
