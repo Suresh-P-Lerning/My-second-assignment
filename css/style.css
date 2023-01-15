@@ -333,6 +333,8 @@ body{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
+        align-content: center;
+        
       }
       .media-details, .media-head{
         text-align: center; 
